@@ -4,7 +4,7 @@
 apikey=''
 
 #get currencies
-curl -sX GET "https://backpack.tf/api/IGetCurrencies/v1?raw=0&key=$apikey" -H  "accept: application/json" > ./IGetCurrencies.json
+curl -sX GET "https://backpack.tf/api/IGetCurrencies/v1?raw=0&key=$apikey" -H  "accept: application/json" > $HOME/IGetCurrencies.json
 
 #get prices
 ref=$(cat ./IGetCurrencies.json |jq '.response.currencies.metal.price.value')
