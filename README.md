@@ -12,5 +12,6 @@ Installation -
 4.) In your .bashrc, write '$HOME/tf2prices/tf2prices.sh'. To test, simply run 'source .bashrc' or close and re-open your terminal.
 
 Dependencies: curl, jq
+
 -On Debian/Ubuntu, run "sudo apt install curl jq"
 -On Arch, run "sudo pacman -S curl jq"
