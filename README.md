@@ -14,4 +14,5 @@ Installation -
 Dependencies: curl, jq
 
 -On Debian/Ubuntu, run "sudo apt install curl jq"
+
 -On Arch, run "sudo pacman -S curl jq"
